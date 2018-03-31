@@ -47,8 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Forge.Application.Demo.zip" />
-    <Content Include="ProjectTemplates\Forge.Application.Demo.zip">
+    <None Include="Forge Application.zip" />
+    <Content Include="ProjectTemplates\Forge Application.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
