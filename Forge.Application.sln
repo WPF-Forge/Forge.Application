@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Application", "src\Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Application.Demo", "src\Forge.Application.Demo\Forge.Application.Demo.csproj", "{3BAC5194-3399-428B-82DA-80CA5DBE9895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Application.VSIX", "Forge.Application.VSIX\Forge.Application.VSIX.csproj", "{BFB5DBFB-D7E1-4D31-97F5-11D15C715A5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Application.VSIX", "tools\Forge.Application.VSIX\Forge.Application.VSIX.csproj", "{BFB5DBFB-D7E1-4D31-97F5-11D15C715A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
