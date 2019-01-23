@@ -2,6 +2,13 @@
   <PropertyGroup>
     <TargetFrameworks>net461;netcoreapp3.0</TargetFrameworks>
     <UseWPF>true</UseWPF>
+
+    <!-- Nuget package properties -->
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/WPF-Forge/Forge.Application/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/WPF-Forge/Forge.Application</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WPF-Forge/Forge.Application</RepositoryUrl>
+    <PackageDescription>ViewModel-first WPF framework</PackageDescription>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MahApps.Metro" Version="1.6.5" />
