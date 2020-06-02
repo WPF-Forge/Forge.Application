@@ -40,7 +40,6 @@
             {
                 return;
             }
-            ;
 
             var bindings = (IEnumerable<InputBinding>)e.NewValue;
             foreach (var binding in bindings)

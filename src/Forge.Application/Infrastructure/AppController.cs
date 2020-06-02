@@ -26,10 +26,10 @@
     {
         public bool CloseOnClickAway
         {
-            get => this._closeOnClickAway;
+            get => this.closeOnClickAway;
             set
             {
-                this._closeOnClickAway = value;
+                this.closeOnClickAway = value;
 
                 try
                 {
@@ -53,7 +53,8 @@
         private ICommand menuCommand;
         private string title;
         private bool toggleState;
-        private bool _closeOnClickAway;
+        private bool closeOnClickAway;
+        private WindowState windowState;
 
         protected AppController()
         {
@@ -138,6 +139,17 @@
                 if (value == this.isMenuOpen) return;
                 this.isMenuOpen = value;
                 this.ToggleState = value;
+                this.OnPropertyChanged();
+            }
+        }
+
+        public WindowState WindowState
+        {
+            get { return this.windowState; }
+            set
+            {
+                if (value == this.windowState) return;
+                this.windowState = value;
                 this.OnPropertyChanged();
             }
         }
