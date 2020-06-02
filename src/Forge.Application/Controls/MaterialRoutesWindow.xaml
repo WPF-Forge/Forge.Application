@@ -1,4 +1,4 @@
-﻿<controls:MetroWindow x:Class="Forge.Application.Controls.MaterialRoutesWindow"
+<controls:MetroWindow x:Class="Forge.Application.Controls.MaterialRoutesWindow"
                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
@@ -28,7 +28,10 @@
                        WindowStartupLocation="CenterScreen"
                        WindowState="Maximized"
                        WindowTransitionsEnabled="False"
-                       mc:Ignorable="d">
+                       mc:Ignorable="d"
+                       ResizeBorderThickness="10"
+                       BorderThickness="0"
+                       GlowBrush="{StaticResource MaterialDesignShadowBrush}">
     <controls:MetroWindow.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
