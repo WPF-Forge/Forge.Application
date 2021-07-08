@@ -18,7 +18,6 @@
                                                         IsDesignTimeCreatable=False}"
                        internal:AttachedProperties.InputBindingsSource="{Binding Routes.Current.RouteConfig.KeyBindings}"
                        Background="{DynamicResource MaterialDesignPaper}"
-                       EnableDWMDropShadow="True"
                        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
                        TextElement.FontSize="{Binding FontSize,
                                                       Mode=OneWay}"
@@ -27,9 +26,12 @@
                        TextOptions.TextFormattingMode="Ideal"
                        TextOptions.TextRenderingMode="Auto"
                        WindowStartupLocation="CenterScreen"
-                       WindowState="Maximized"
+                       WindowState="{Binding WindowState}"
                        WindowTransitionsEnabled="False"
-                       mc:Ignorable="d">
+                       mc:Ignorable="d"
+                       ResizeBorderThickness="10"
+                       BorderThickness="0"
+                       GlowBrush="{StaticResource MaterialDesignShadowBrush}">
     <controls:MetroWindow.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

@@ -11,7 +11,7 @@
             VerticalAlignment="Center">
             <ScrollViewer VerticalScrollBarVisibility="Auto">
                 <StackPanel Margin="24,24,16,16">
-                    <TextBlock Style="{StaticResource MaterialDesignTitleTextBlock}" Text="Send e-mail" />
+                    <TextBlock Style="{StaticResource MaterialDesignHeadline6TextBlock}" Text="Send e-mail" />
                     <TextBlock Margin="0,16,0,0" Text="Your name" />
                     <TextBox Text="{Binding Name}" />
                     <TextBlock Margin="0,16,0,0" Text="Your message" />
