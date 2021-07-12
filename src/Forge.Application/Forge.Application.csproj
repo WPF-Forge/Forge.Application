@@ -7,12 +7,12 @@
     <None Remove="Controls\MaterialRoutesWindow.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MahApps.Metro" Version="1.6.5" />
-    <PackageReference Include="MaterialDesignColors" Version="1.1.3" />
-    <PackageReference Include="MaterialDesignThemes" Version="2.5.0.1205" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.7" />
+    <PackageReference Include="MaterialDesignColors" Version="2.0.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
     <PackageReference Include="Ninject" Version="3.3.4" />
     <PackageReference Include="NuGet.Build.Tasks.Pack">
-      <Version>4.9.2</Version>
+      <Version>5.10.0</Version>
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>

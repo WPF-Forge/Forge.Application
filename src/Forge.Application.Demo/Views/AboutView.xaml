@@ -11,7 +11,7 @@
             VerticalAlignment="Stretch">
             <ScrollViewer VerticalScrollBarVisibility="Auto">
                 <StackPanel Margin="24,24,16,16">
-                    <TextBlock Style="{StaticResource MaterialDesignTitleTextBlock}" Text="About this app" />
+                    <TextBlock Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="About this app" />
                     <TextBlock
                         Margin="0,24,0,0"
                         Text="This is a description page about this application."

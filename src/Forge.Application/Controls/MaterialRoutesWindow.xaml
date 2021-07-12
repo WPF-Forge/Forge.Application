@@ -18,7 +18,6 @@
                                                         IsDesignTimeCreatable=False}"
                        internal:AttachedProperties.InputBindingsSource="{Binding Routes.Current.RouteConfig.KeyBindings}"
                        Background="{DynamicResource MaterialDesignPaper}"
-                       EnableDWMDropShadow="True"
                        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
                        TextElement.FontSize="{Binding FontSize,
                                                       Mode=OneWay}"
