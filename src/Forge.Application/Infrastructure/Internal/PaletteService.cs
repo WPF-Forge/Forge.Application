@@ -16,36 +16,36 @@
 
         public void RefreshTheme()
         {
-            new PaletteHelper().SetLightDark(this.DarkMode);
+            //new PaletteHelper().SetLightDark(this.DarkMode);
         }
 
         public void RefreshPalette()
         {
-            var paletteHelper = new PaletteHelper();
-            if (this.DarkMode)
-            {
-                if (this.DarkModePrimary != null)
-                {
-                    paletteHelper.ReplacePrimaryColor(this.DarkModePrimary);
-                }
+            //var paletteHelper = new PaletteHelper();
+            //if (this.DarkMode)
+            //{
+            //    if (this.DarkModePrimary != null)
+            //    {
+            //        paletteHelper.ReplacePrimaryColor(this.DarkModePrimary);
+            //    }
 
-                if (this.DarkModeAccent != null)
-                {
-                    paletteHelper.ReplaceAccentColor(this.DarkModeAccent);
-                }
-            }
-            else
-            {
-                if (this.LightModePrimary != null)
-                {
-                    paletteHelper.ReplacePrimaryColor(this.LightModePrimary);
-                }
+            //    if (this.DarkModeAccent != null)
+            //    {
+            //        paletteHelper.ReplaceAccentColor(this.DarkModeAccent);
+            //    }
+            //}
+            //else
+            //{
+            //    if (this.LightModePrimary != null)
+            //    {
+            //        paletteHelper.ReplacePrimaryColor(this.LightModePrimary);
+            //    }
 
-                if (this.LightModeAccent != null)
-                {
-                    paletteHelper.ReplaceAccentColor(this.LightModeAccent);
-                }
-            }
+            //    if (this.LightModeAccent != null)
+            //    {
+            //        paletteHelper.ReplaceAccentColor(this.LightModeAccent);
+            //    }
+            //}
         }
     }
 }
